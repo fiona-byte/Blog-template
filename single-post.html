@@ -180,42 +180,193 @@
           </div>
         </div>
       </div>
-      <div class="similar-posts">
-        <h2 class="heading similar-posts__heading">Keep reading</h2>
-        <div class="similar-posts__wrapper">
-          <div class="similar-post__card">
-            <div class="similar-post__image--container">
-              <img src="./assets/post-image.jpg" alt="post" class="similar-post__image" />
+      <div class="post-comments">
+        <div class="post-comments__control">
+          <h2 class="heading post-comments__heading">Comments (6)</h2>
+          <div class="post-comments__wrapper">
+            <div class="post-comments__textfield--wrapper">
+              <div class="post-comments__textfield">
+                <form action="" class="post-comments__form">
+                  <div class="post-comments__textarea--container">
+                    <div class="post-comments__user-control">
+                      <div class="post-comments__user-control--box">
+                        <img src="./assets/post-img.png" alt="" class="post-comments__user--avatar" />
+                        <h2 class="post-comments__username">Cavdy Ogbuefi</h2>
+                      </div>
+                      <button class="post-comments__user-control--btn">
+                        <i data-feather="x" class="post-comments__icon"></i>
+                      </button>
+                    </div>
+                    <textarea
+                      name="comment"
+                      id="comment"
+                      cols="30"
+                      rows="5"
+                      class="post-comments__textarea"
+                      placeholder="What's your thoughts on this?"
+                    ></textarea>
+                  </div>
+                  <button class="btn post-comments__btn">Comment</button>
+                </form>
+              </div>
             </div>
-            <div class="similar-post__card--container">
-              <div class="similar-post__card--info">
-                <img src="./assets/post-img.png" alt="avatar" class="similar-post__card--avatar" />
-                <div class="similar-post__card--details">
-                  <p class="similar-post__card--username">Cavdy Ogbuefi</p>
-                  <p class="similar-post__card--timeframe">2 days ago</p>
+            <div class="post-comments__container">
+              <div class="post-comments__comment">
+                <div class="post-comments__user-control">
+                  <div class="post-comments__user-control--box">
+                    <img src="./assets/post-image.jpg" alt="" class="post-comments__user--avatar" />
+                    <div class="post-comments__details">
+                      <p class="post-comments__username">Oteneku de Oteneku</p>
+                      <p class="post-comments__timeframe">2 days ago</p>
+                    </div>
+                  </div>
+                  <button class="post-comments__user-control--btn">
+                    <i data-feather="more-vertical" class="post-comments__icon"></i>
+                  </button>
+                </div>
+                <div class="post-comments__text--container">
+                  <p class="post-comments__text">This was a great article! Thank you :)</p>
+                </div>
+                <div class="post-comments__comment--box">
+                  <div class="post-comments__cta--box">
+                    <button class="post-comments__cta--btn">
+                      <i data-feather="thumbs-up" class="post-comments__cta--icon"></i>
+                    </button>
+                    <span class="post-comments__cta--text">7</span>
+                  </div>
+                  <button class="post-comments__reply--cta">Reply</button>
                 </div>
               </div>
-              <div class="similar-post__card--brief">
-                <a href="./single-post.html" class="heading similar-post__card--heading"
-                  >Breaking the barrier of imposter syndrome</a
-                >
-                <p class="similar-post__card--sub">
-                  Boosting self-actualization through perception, practice and communication.
-                </p>
-              </div>
-              <div class="similar-post__card--box">
-                <div class="similar-post__card--tags">
-                  <p class="similar-post__card--tag">Design</p>
-                  <p class="similar-post__card--tag">Career</p>
-                  <p class="similar-post__card--tag">Psychology</p>
+              <div class="post-comments__comment">
+                <div class="post-comments__user-control">
+                  <div class="post-comments__user-control--box">
+                    <img src="./assets/post-image.jpg" alt="" class="post-comments__user--avatar" />
+                    <div class="post-comments__details">
+                      <p class="post-comments__username">Oteneku de Oteneku</p>
+                      <p class="post-comments__timeframe">10 Dec</p>
+                    </div>
+                  </div>
+                  <button class="post-comments__user-control--btn">
+                    <i data-feather="more-vertical" class="post-comments__icon"></i>
+                  </button>
                 </div>
-                <div class="similar-post__card--cta">
-                  <button class="similar-post__card--cta-btn">
-                    <i data-feather="bookmark" class="similar-post__icon" style="stroke-width: 1.5px"></i>
+                <div class="post-comments__text--container">
+                  <p class="post-comments__text">This made a lot of sense and I'd be putting this into practice.</p>
+                </div>
+                <div class="post-comments__comment--box">
+                  <div class="post-comments__cta--wrapper">
+                    <div class="post-comments__cta--box">
+                      <button class="post-comments__cta--btn">
+                        <i data-feather="thumbs-up" class="post-comments__cta--icon"></i>
+                      </button>
+                      <span class="post-comments__cta--text">7</span>
+                    </div>
+                    <div class="post-comments__cta--box">
+                      <button class="post-comments__cta--btn">
+                        <i data-feather="message-circle" class="post-comments__cta--icon"></i>
+                      </button>
+                      <span class="post-comments__cta--text">1</span>
+                    </div>
+                  </div>
+                  <button class="post-comments__reply--cta">Reply</button>
+                </div>
+                <div class="post-comments__replies">
+                  <div class="post-comments__replies--user-control">
+                    <div class="post-comments__replies--user-control--box">
+                      <img src="./assets/post-image.jpg" alt="avatar" class="post-comments__replies--user--avatar" />
+                      <div class="post-comments__replies--details">
+                        <p class="post-comments__replies--username">Cavdychukwu Anayo</p>
+                        <p class="post-comments__replies--timeframe">11 Dec</p>
+                      </div>
+                    </div>
+                    <button class="post-comments__replies--user-control--btn">
+                      <i data-feather="more-vertical" class="post-comments__replies--icon"></i>
+                    </button>
+                  </div>
+                  <div class="post-comments__replies--text--container">
+                    <p class="post-comments__replies--text">Totally agree with you.</p>
+                  </div>
+                  <div class="post-comments__replies--comment--box">
+                    <div class="post-comments__replies--cta--box">
+                      <button class="post-comments__replies--cta--btn">
+                        <i data-feather="thumbs-up" class="post-comments__replies--cta--icon"></i>
+                      </button>
+                    </div>
+                    <button class="post-comments__replies--reply--cta">Reply</button>
+                  </div>
+                </div>
+              </div>
+              <div class="post-comments__comment">
+                <div class="post-comments__user-control">
+                  <div class="post-comments__user-control--box">
+                    <img src="./assets/post-image.jpg" alt="" class="post-comments__user--avatar" />
+                    <div class="post-comments__details">
+                      <p class="post-comments__username">Odogwu na Malay</p>
+                      <p class="post-comments__timeframe">2 days ago</p>
+                    </div>
+                  </div>
+                  <button class="post-comments__user-control--btn">
+                    <i data-feather="more-vertical" class="post-comments__icon"></i>
                   </button>
-                  <button class="similar-post__card--cta-btn">
-                    <i data-feather="more-vertical" class="similar-post__icon"></i>
-                  </button>
+                </div>
+                <div class="post-comments__text--container">
+                  <p class="post-comments__text">
+                    Terrific article - there were a couple interesting things that I hadn't seen before! Like the
+                    response rate to recruiter messages - makes sense as a metric to consider.
+                  </p>
+                </div>
+                <div class="post-comments__comment--box">
+                  <div class="post-comments__cta--box">
+                    <button class="post-comments__cta--btn">
+                      <i data-feather="thumbs-up" class="post-comments__cta--icon"></i>
+                    </button>
+                    <span class="post-comments__cta--text">2</span>
+                  </div>
+                  <button class="post-comments__reply--cta">Reply</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="similar-posts">
+        <div class="similar-posts__container">
+          <h2 class="heading similar-posts__heading">Keep reading</h2>
+          <div class="similar-posts__wrapper">
+            <div class="similar-post__card">
+              <div class="similar-post__image--container">
+                <img src="./assets/post-image.jpg" alt="post" class="similar-post__image" />
+              </div>
+              <div class="similar-post__card--container">
+                <div class="similar-post__card--info">
+                  <img src="./assets/post-img.png" alt="avatar" class="similar-post__card--avatar" />
+                  <div class="similar-post__card--details">
+                    <p class="similar-post__card--username">Cavdy Ogbuefi</p>
+                    <p class="similar-post__card--timeframe">2 days ago</p>
+                  </div>
+                </div>
+                <div class="similar-post__card--brief">
+                  <a href="./single-post.html" class="heading similar-post__card--heading"
+                    >Breaking the barrier of imposter syndrome</a
+                  >
+                  <p class="similar-post__card--sub">
+                    Boosting self-actualization through perception, practice and communication.
+                  </p>
+                </div>
+                <div class="similar-post__card--box">
+                  <div class="similar-post__card--tags">
+                    <p class="similar-post__card--tag">Design</p>
+                    <p class="similar-post__card--tag">Career</p>
+                    <p class="similar-post__card--tag">Psychology</p>
+                  </div>
+                  <div class="similar-post__card--cta">
+                    <button class="similar-post__card--cta-btn">
+                      <i data-feather="bookmark" class="similar-post__icon" style="stroke-width: 1.5px"></i>
+                    </button>
+                    <button class="similar-post__card--cta-btn">
+                      <i data-feather="more-vertical" class="similar-post__icon"></i>
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
