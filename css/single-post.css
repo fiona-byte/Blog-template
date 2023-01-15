@@ -484,6 +484,7 @@ main {
 .sub-footer__heading span {
   font-family: 'Pacifico', cursive;
   color: #ed4b47;
+    font-weight: 400;
 }
 
 .sub-footer__sub {

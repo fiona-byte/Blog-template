@@ -1,6 +1,7 @@
 .posts-filter {
   margin-bottom: 2.8rem;
   padding: 0 1.2rem;
+  overflow-x: auto;
 }
 
 .posts-filter::after {
@@ -10,13 +11,12 @@
   height: 1px;
   background-color: #ed4b47;
   opacity: 0.6;
-  margin-top: 0.5rem;
+  margin-bottom: 0.2rem;
 }
 
 .posts-filter__container {
   display: flex;
   align-items: center;
-  overflow: hidden;
 }
 
 .posts-filter__tag {
@@ -25,6 +25,7 @@
   font-size: 1.6rem;
   letter-spacing: -0.656526px;
   padding-right: 2rem;
+  padding-bottom: 0.8rem;
 }
 
 .posts-filter__tag.active::after {
@@ -282,6 +283,7 @@
 .sub-footer__heading span {
   font-family: 'Pacifico', cursive;
   color: #ed4b47;
+  font-weight: 400;
 }
 
 .sub-footer__sub {
