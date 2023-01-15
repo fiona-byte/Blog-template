@@ -17,153 +17,160 @@
     <title>Gist</title>
   </head>
   <body>
-    <!--            Navigation            -->
-
     <nav class="navigation">
-      <a href="/" class="navigation__logo">Gist</a>
-      <button class="navigation__hamburger">
-        <img src="./assets/navigation.svg" alt="hamburger" class="navigation__hamburger--icon" />
-      </button>
-      <ul class="navigation__list">
-        <li class="navigation__item">
-          <a href="/" class="navigation__link">Home</a>
-        </li>
-        <li class="navigation__item">
-          <a href="/" class="navigation__link">Blog</a>
-        </li>
-        <li class="navigation__item">
-          <a href="/" class="navigation__link">About Us</a>
-        </li>
-      </ul>
-      <ul class="navigation__list">
-        <li class="navigation__cta">
-          <a href="/" class="navigation__cta--link">Log in</a>
-        </li>
-        <li class="navigation__item">
-          <a href="/" class="btn">Sign Up</a>
-        </li>
-      </ul>
-    </nav>
-
-    <main>
-      <!--                 Filter                    -->
-
-      <div class="posts-filter">
-        <div class="posts-filter__container">
-          <p class="posts-filter__tag active">All</p>
-          <p class="posts-filter__tag">Design</p>
-          <p class="posts-filter__tag">Product</p>
-          <p class="posts-filter__tag">Development</p>
-          <p class="posts-filter__tag">Engineering</p>
-          <p class="posts-filter__tag">Management</p>
-          <p class="posts-filter__tag">Leadership</p>
-          <p class="posts-filter__tag">Web3</p>
-          <p class="posts-filter__tag">Crypto</p>
-          <p class="posts-filter__tag">Lifestyle</p>
-          <button class="posts-filter__btn">
-            <i data-feather="chevron-right" class="posts-filter__icon"></i>
+      <div class="navigation__wrapper">
+        <a href="/" class="navigation__logo">Gist</a>
+        <button class="navigation__hamburger">
+          <img src="./assets/navigation.svg" alt="hamburger" class="navigation__hamburger--icon" />
+        </button>
+        <div class="navigation__container">
+          <button class="navigation__close">
+            <i data-feather="x" class="navigation__close--icon"></i>
           </button>
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="/" class="navigation__link">Home</a>
+            </li>
+            <li class="navigation__item">
+              <a href="/" class="navigation__link">Blog</a>
+            </li>
+            <li class="navigation__item">
+              <a href="/" class="navigation__link">About Us</a>
+            </li>
+          </ul>
+          <ul class="navigation__cta">
+            <li class="navigation__cta--list">
+              <a href="/" class="navigation__cta--link">Log in</a>
+            </li>
+            <li class="navigation__cta--list">
+              <a href="/" class="btn">Sign Up</a>
+            </li>
+          </ul>
         </div>
       </div>
+    </nav>
 
-      <!--              Projects section             -->
+    <div class="container">
+      <main>
+        <!--                 Filter                    -->
 
-      <section class="posts">
-        <div class="posts__container">
-          <div class="recent-post__card">
-            <div class="recent-post__image--container">
-              <img src="./assets/post-img.png" alt="post" class="recent-post__image" />
-            </div>
-            <div class="recent-post__card--container">
-              <div class="recent-post__card--info">
-                <img src="./assets/post-img.png" alt="avatar" class="recent-post__card--avatar" />
-                <div class="recent-post__card--details">
-                  <p class="recent-post__card--username">Cavdy Ogbuefi</p>
-                  <p class="recent-post__card--timeframe">2 days ago</p>
-                </div>
-              </div>
-              <div class="recent-post__card--brief">
-                <a href="./single-post.html" class="heading recent-post__card--heading"
-                  >Breaking the barrier of imposter syndrome</a
-                >
-                <p class="recent-post__card--sub">
-                  Boosting self-actualization through perception, practice and communication.
-                </p>
-              </div>
-              <div class="recent-post__card--box">
-                <div class="recent-post__card--tags">
-                  <p class="recent-post__card--tag">Design</p>
-                  <p class="recent-post__card--tag">Career</p>
-                  <p class="recent-post__card--tag">Psychology</p>
-                </div>
-                <div class="recent-post__card--cta">
-                  <button class="recent-post__card--cta-btn">
-                    <i data-feather="bookmark" class="post__icon" style="stroke-width: 1.5px"></i>
-                  </button>
-                  <button class="recent-post__card--cta-btn">
-                    <i data-feather="more-vertical" class="post__icon"></i>
-                  </button>
-                </div>
-              </div>
-            </div>
+        <div class="posts-filter">
+          <div class="posts-filter__container">
+            <p class="posts-filter__tag active">All</p>
+            <p class="posts-filter__tag">Design</p>
+            <p class="posts-filter__tag">Product</p>
+            <p class="posts-filter__tag">Development</p>
+            <p class="posts-filter__tag">Engineering</p>
+            <p class="posts-filter__tag">Management</p>
+            <p class="posts-filter__tag">Leadership</p>
+            <p class="posts-filter__tag">Web3</p>
+            <p class="posts-filter__tag">Crypto</p>
+            <p class="posts-filter__tag">Lifestyle</p>
+            <button class="posts-filter__btn">
+              <i data-feather="chevron-right" class="posts-filter__icon"></i>
+            </button>
           </div>
-          <div class="posts__wrapper">
-            <div class="post__card">
-              <div class="post__image--container">
-                <img src="./assets/post-image.jpg" alt="post" class="post__image" />
+        </div>
+
+        <!--              Projects section             -->
+
+        <section class="posts">
+          <div class="posts__container">
+            <div class="recent-post__card">
+              <div class="recent-post__image--container">
+                <img src="./assets/post-img.png" alt="post" class="recent-post__image" />
               </div>
-              <div class="post__card--container">
-                <div class="post__card--info">
-                  <img src="./assets/post-img.png" alt="avatar" class="post__card--avatar" />
-                  <div class="post__card--details">
-                    <p class="post__card--username">Cavdy Ogbuefi</p>
-                    <p class="post__card--timeframe">2 days ago</p>
+              <div class="recent-post__card--container">
+                <div class="recent-post__card--info">
+                  <img src="./assets/post-img.png" alt="avatar" class="recent-post__card--avatar" />
+                  <div class="recent-post__card--details">
+                    <p class="recent-post__card--username">Cavdy Ogbuefi</p>
+                    <p class="recent-post__card--timeframe">2 days ago</p>
                   </div>
                 </div>
-                <div class="post__card--brief">
-                  <a href="./single-post.html" class="heading post__card--heading"
+                <div class="recent-post__card--brief">
+                  <a href="./single-post.html" class="heading recent-post__card--heading"
                     >Breaking the barrier of imposter syndrome</a
                   >
-                  <p class="post__card--sub">
+                  <p class="recent-post__card--sub">
                     Boosting self-actualization through perception, practice and communication.
                   </p>
                 </div>
-                <div class="post__card--box">
-                  <div class="post__card--tags">
+                <div class="recent-post__card--box">
+                  <div class="recent-post__card--tags">
                     <p class="recent-post__card--tag">Design</p>
                     <p class="recent-post__card--tag">Career</p>
                     <p class="recent-post__card--tag">Psychology</p>
                   </div>
-                  <div class="post__card--cta">
-                    <button class="post__card--cta-btn">
+                  <div class="recent-post__card--cta">
+                    <button class="recent-post__card--cta-btn">
                       <i data-feather="bookmark" class="post__icon" style="stroke-width: 1.5px"></i>
                     </button>
-                    <button class="post__card--cta-btn">
+                    <button class="recent-post__card--cta-btn">
                       <i data-feather="more-vertical" class="post__icon"></i>
                     </button>
                   </div>
                 </div>
               </div>
             </div>
+            <div class="posts__wrapper">
+              <div class="post__card">
+                <div class="post__image--container">
+                  <img src="./assets/post-image.jpg" alt="post" class="post__image" />
+                </div>
+                <div class="post__card--container">
+                  <div class="post__card--info">
+                    <img src="./assets/post-img.png" alt="avatar" class="post__card--avatar" />
+                    <div class="post__card--details">
+                      <p class="post__card--username">Cavdy Ogbuefi</p>
+                      <p class="post__card--timeframe">2 days ago</p>
+                    </div>
+                  </div>
+                  <div class="post__card--brief">
+                    <a href="./single-post.html" class="heading post__card--heading"
+                      >Breaking the barrier of imposter syndrome</a
+                    >
+                    <p class="post__card--sub">
+                      Boosting self-actualization through perception, practice and communication.
+                    </p>
+                  </div>
+                  <div class="post__card--box">
+                    <div class="post__card--tags">
+                      <p class="recent-post__card--tag">Design</p>
+                      <p class="recent-post__card--tag">Career</p>
+                      <p class="recent-post__card--tag">Psychology</p>
+                    </div>
+                    <div class="post__card--cta">
+                      <button class="post__card--cta-btn">
+                        <i data-feather="bookmark" class="post__icon" style="stroke-width: 1.5px"></i>
+                      </button>
+                      <button class="post__card--cta-btn">
+                        <i data-feather="more-vertical" class="post__icon"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--        Pagination        -->
+
+        <div class="pagination">
+          <div class="pagination__container">
+            <button class="pagination__control--btn prev" disabled>
+              <i data-feather="chevron-left" class="pagination__icon"></i>
+            </button>
+            <button class="pagination__btn active">1</button>
+            <button class="pagination__btn">2</button>
+            <button class="pagination__control--btn next">
+              <i data-feather="chevron-right" class="pagination__icon"></i>
+            </button>
           </div>
         </div>
-      </section>
-
-      <!--        Pagination        -->
-
-      <div class="pagination">
-        <div class="pagination__container">
-          <button class="pagination__control--btn prev" disabled>
-            <i data-feather="chevron-left" class="pagination__icon"></i>
-          </button>
-          <button class="pagination__btn active">1</button>
-          <button class="pagination__btn">2</button>
-          <button class="pagination__control--btn next">
-            <i data-feather="chevron-right" class="pagination__icon"></i>
-          </button>
-        </div>
-      </div>
-    </main>
+      </main>
+    </div>
 
     <!--               Sub-footer            -->
 
@@ -198,6 +205,7 @@
       </div>
     </footer>
 
+    <script src="/js/index.js"></script>
     <script src="https://unpkg.com/feather-icons"></script>
     <script>
       feather.replace();
