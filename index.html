@@ -56,6 +56,9 @@
 
         <div class="posts-filter">
           <div class="posts-filter__container">
+            <button class="posts-filter__btn left" onclick="handleScrollLeft()">
+              <i data-feather="chevron-left" class="posts-filter__icon"></i>
+            </button>
             <div class="posts-filter__wrapper">
               <p class="posts-filter__tag active">All</p>
               <p class="posts-filter__tag">Design</p>
@@ -72,7 +75,7 @@
               <p class="posts-filter__tag">Lifestyle</p>
               <p class="posts-filter__tag">Lifestyle</p>
             </div>
-            <button class="posts-filter__btn">
+            <button class="posts-filter__btn right" onclick="handleScrollRight()">
               <i data-feather="chevron-right" class="posts-filter__icon"></i>
             </button>
           </div>
